@@ -2,17 +2,19 @@
 ## Learning Outcomes
 
 * Understanding the basic components in Generative Adversarial Networks and their working principles
-* Implementing GAN architectures using tensor flow and keras libraries 
+* Diving into the process of Image Generation with GANs
+* Implementing GAN architectures using tensor flow and keras libraries
 * Elaborate on the importance of activation functions 
 * Addressing the challenges and Ethical and Societal concerns offered by the GAN architectures
 * Evaluate and strategically choose GAN models applicable for diverse real-world scenarios
 
 
-Generative Adversarial Networks (GANs) are modeled by pairing opposing neural networks that can extract and represent complex features of images. Generator and the discriminator are the opposing networks, where adversarial training is the vital principle in generation of counterfeit images. GANs employ an unsupervised learning setup with a loss function in the form of the discriminator's feedback. This allows the generator to generate realistic images without requiring explicitly labeled data; nonetheless GANs cannot be categorized as unsupervised learning, as the discriminator acts as a supervisor by continuously providing feedback to the generator, guiding it to craft images that resemble the original.
+Generative Adversarial Networks (GANs) are a type of artificial intelligence model, developed by pairing opposing neural networks that can extract and represent complex features of images. 
+Generator and the discriminator are the opposing networks here, where adversarial training is the vital principle in generation of counterfeit images. GANs employ an unsupervised learning setup with a loss function in the form of the discriminator's feedback. This allows the generator to generate realistic images without requiring explicitly labeled data; nonetheless GANs cannot be categorized as unsupervised learning, as the discriminator acts as a supervisor by continuously providing feedback to the generator, guiding it to craft images that resemble the original.
 <center>
 <img src="https://github.com/HimaValiveti/images/blob/main/Image1.JPG" width="500" height="300"> </center>
 
-## Process Flow in GANs
+## Diving into the process of Image Generation with GANs
 
 ### Generator:
 
