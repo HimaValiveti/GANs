@@ -65,7 +65,7 @@ Furthermore, the discriminator and generator are paired and adversarial training
 * GANs have been widely used for mimicking the literature developed by humans indirectly violating the Intellectual Property Rights (IPR)
 * The generated output can be prejudiced if the training data is not sensitized
 
-## Different types of GAN models and thier applications in Image Generation
+## Different types of GAN models and their applications in Image Generation
 
 |Model | Prominent Features     | Applications       |
 |---- | ------------ | ------------|
