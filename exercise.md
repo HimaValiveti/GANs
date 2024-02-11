@@ -37,6 +37,8 @@ GANs employ an unsupervised learning setup with a loss function in the form of t
   
 * The generator masters in deception and the discriminator in identifying the counterfeit image.
 
+* This learning process continues until the generator becomes better at generating images that are indistinguishable from real ones which leads to generating high quality images.
+
 ## Implementation of GANs
 
 Basic libraries used for generating GAN architecture in python are tensor flow and keras. A simple adversarial generator and discriminator model architecture is explored.
