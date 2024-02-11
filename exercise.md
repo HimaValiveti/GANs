@@ -9,8 +9,8 @@
 
 
 Generative Adversarial Networks (GANs) are modeled by pairing opposing neural networks that can extract and represent complex features of images. Generator and the discriminator are the opposing networks, where adversarial training is the vital principle in generation of counterfeit images. GANs employ an unsupervised learning setup with a loss function in the form of the discriminator's feedback. This allows the generator to generate realistic images without requiring explicitly labeled data; nonetheless GANs cannot be categorized as unsupervised learning, as the discriminator acts as a supervisor by continuously providing feedback to the generator, guiding it to craft images that resemble the original.
-
-![Block diagram of Simple GAN](https://github.com/HimaValiveti/images/blob/main/Image1.JPG)
+<center>
+<img src="https://github.com/HimaValiveti/images/blob/main/Image1.JPG" width="400" height="200"> </center>
 
 ## Process Flow in GANs:
 
@@ -36,15 +36,13 @@ Generative Adversarial Networks (GANs) are modeled by pairing opposing neural ne
 
 Basic libraries used for generating GAN architecture in python are tensor flow and keras. A simple adversarial generator and discriminator model architecture is explored.
 
-![code libraries ](https://github.com/HimaValiveti/images/blob/main/code_libraries.jpg)
+<center><img src="https://github.com/HimaValiveti/images/blob/main/code_libraries.jpg" width="400" height="50"> </center>
 
 The generator consists of three dense layers wherein the output dense layer has the activation function ‘tanh’ which produces 28*28 (784) dimensional vector for every image input within a normalized range of [-1,1].  This vector is forwarded to the discriminator which flattens the 28*28 vector. The activation functions, Rectifier Linear Unit (ReLU) is used for faster convergence of the generator/ discriminator models and Sigmoid is used for depicting the originality of the image.
 
+<center><img src="https://github.com/HimaValiveti/images/blob/main/discriptive_Model.jpg" width="400" height="200"> </center>
 
-![Descriptive Model](https://github.com/HimaValiveti/images/blob/main/discriptive_Model.jpg)
-
-
-![Generative Model](https://github.com/HimaValiveti/images/blob/main/generative_model_1.jpg)
+<center><img src="https://github.com/HimaValiveti/images/blob/main/generative_model_1.jpg" width="400" height="200"> </center>
 
 Furthermore, the discriminator and generator are paired and adversarial training of both the models is implemented and the hyperparameters are updated according to the learning environment.
 
