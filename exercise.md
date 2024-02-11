@@ -86,10 +86,11 @@ Over the past decade GAN models have been constantly evolving making them suitab
 
 ## References
 
-1. Porkodi, S. P., Sarada, V., Maik, V., & Gurushankar, K. (2023). Generic image application using GANs (generative adversarial networks): a review. Evolving Systems, 14(5), 903-917. 
-2. Dash, A., Ye, J., & Wang, G. (2023). A review of Generative Adversarial Networks (GANs) and its applications in a wide variety of disciplines: From Medical to Remote Sensing. IEEE Access.
-3. Saxena, D., & Cao, J. (2021). Generative adversarial networks (GANs) challenges, solutions, and future directions. ACM Computing Surveys (CSUR), 54(3), 1-42.
-4. Sun, Y., Wu, Z., Ma, Y., & Tresp, V. (2024). Quantum Architecture Search with Unsupervised Representation Learning. arXiv preprint arXiv:2401.11576.
+1. Bok, V., & Langr, J. (2019). GANs in Action: Deep learning with Generative Adversarial Networks. Simon and Schuster.
+2. Porkodi, S. P., Sarada, V., Maik, V., & Gurushankar, K. (2023). Generic image application using GANs (generative adversarial networks): a review. Evolving Systems, 14(5), 903-917. 
+3. Dash, A., Ye, J., & Wang, G. (2023). A review of Generative Adversarial Networks (GANs) and its applications in a wide variety of disciplines: From Medical to Remote Sensing. IEEE Access.
+4. Saxena, D., & Cao, J. (2021). Generative adversarial networks (GANs) challenges, solutions, and future directions. ACM Computing Surveys (CSUR), 54(3), 1-42.
+5. Sun, Y., Wu, Z., Ma, Y., & Tresp, V. (2024). Quantum Architecture Search with Unsupervised Representation Learning. arXiv preprint arXiv:2401.11576.
 
 ## Assessment
 1. The core objective of generator in GANs is?
