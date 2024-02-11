@@ -37,7 +37,7 @@ GANs employ an unsupervised learning setup with a loss function in the form of t
   
 * The generator masters in deception and the discriminator in identifying the counterfeit image.
 
-* This learning process continues until the generator becomes better at generating images that are indistinguishable from real ones which leads to generating high quality images.
+* This learning process continues until the generator becomes better at generating images that are indistinguishable from real ones 
 
 ## Implementation of GANs
 
@@ -67,17 +67,7 @@ Furthermore, the discriminator and generator are paired and adversarial training
 
 ## Different types of GAN models and their applications in Image Generation
 
-|Model | Prominent Features     | Applications       |
-|---- | ------------ | ------------|
-|Vanilla GAN **(2014)**	|Simple GAN with generator and discriminator pairing	|Image generation|
-|Conditional GAN **(2015)**	|Labels and Texts appended for guided generation of images	| <li> Image Translation</li> <li>Text to Image tasks</li> |
-|Deep Convolutional GANs **(2015)**	|Exploits the core principles of CNN	| <li> Landscape</li> <li>Monet</li> <li> Facial generation</li>|
-|Wasserstein GANs **(2017)**	|Loss function is tabulated based on Wasserstein distance to enhance the stability of the duo	|Generating complex images|
-|Style Transfer GANs **(2015)**	|Pre trained models are used  for feature extraction from images	|<li>Image manipulation </li><li>Artistic exploration </li>|
-|Progressive GANs **(2018)**	|Start with images having low resolution during training, upsampling (generator) and downsampling (discrimator), Better stability|High resolution artistry|
-|StyleGAN **(2019)**	|ProGAN	|Realistic and Diverse Facial generation|
-|BigGAN **(2019)**		|ProGAN	|Large scale Image generation|
-|Diffusion Models **(2020)**	|non-GAN model	|Text-to-image generation, image editing and manipulation|
+
 
 
 ## Conclusion
