@@ -10,7 +10,7 @@
 
 Generative Adversarial Networks (GANs) are modeled by pairing opposing neural networks that can extract and represent complex features of images. Generator and the discriminator are the opposing networks, where adversarial training is the vital principle in generation of counterfeit images. GANs employ an unsupervised learning setup with a loss function in the form of the discriminator's feedback. This allows the generator to generate realistic images without requiring explicitly labeled data; nonetheless GANs cannot be categorized as unsupervised learning, as the discriminator acts as a supervisor by continuously providing feedback to the generator, guiding it to craft images that resemble the original.
 <center>
-<img src="https://github.com/HimaValiveti/images/blob/main/Image1.JPG" width="400" height="200"> </center>
+<img src="https://github.com/HimaValiveti/images/blob/main/Image1.JPG" width="500" height="300"> </center>
 
 ## Process Flow in GANs
 
@@ -42,7 +42,7 @@ The generator consists of three dense layers wherein the output dense layer has 
 
 <center><img src="https://github.com/HimaValiveti/images/blob/main/discriptive_Model.jpg" width="400" height="200"> </center>
 
-<center><img src="https://github.com/HimaValiveti/images/blob/main/generative_model_1.jpg" width="400" height="200"> </center>
+<center><img src="https://github.com/HimaValiveti/images/blob/main/generative_model_1.jpg" width="500" height="300"> </center>
 
 Furthermore, the discriminator and generator are paired and adversarial training of both the models is implemented and the hyperparameters are updated according to the learning environment.
 
@@ -53,12 +53,12 @@ Furthermore, the discriminator and generator are paired and adversarial training
 **Vanishing Gradient:** Occurs when almost negligible gradient is back propagated by the discriminator to the generator hampering the updation of hyperparameters, slowing down the learning process- Discriminator overfitting
 
 
-## Ethical Concerns
+### Ethical Concerns
 * The Deepfake video and audio of people is predominantly used in the entertainment industry but has witnessed alarming concerns that can cause fraud and harm on a global scale
 * GANs have been widely used for mimicking the literature developed by humans indirectly violating the Intellectual Property Rights (IPR)
 * The generated output can be prejudiced if the training data is not sensitized
 
-# GAN models and applications
+## GAN models and applications
 
 |Model | Prominent Features     | Applications       |
 |---- | ------------ | ------------|
@@ -75,7 +75,7 @@ Furthermore, the discriminator and generator are paired and adversarial training
 
 ## Conclusion
 
-Over the past decade GAN architectures have been constantly evolving making them suitable for a plethora of computing applications. Higher quality of the training data and learning the model for a longer duration ensure that the generated data outperforms the original. Furthermore, imposing ethical guidelines and eliminating sensitive data can help mitigate the ethical concerns to a major extent.
+Over the past decade GAN models have been constantly evolving making them suitable for a plethora of computing applications. Higher quality of the training data and learning the model for a longer duration ensure that the generated data outperforms the original. Furthermore, imposing ethical guidelines and eliminating sensitive data can help mitigate the ethical concerns to a major extent.
 
 ## References
 
@@ -86,8 +86,8 @@ Over the past decade GAN architectures have been constantly evolving making them
 
 ## Reflections
 
-GAN is unsupervised learning model and explicitly differentiating it with supervised models would help the learner understand labelled and unlabelled data. I wanted to start by differentiating the descriptive and generative models
-
-GANs are implemented on the principles of Deep neural networks where higher level of abstraction is plausible. I wasn’t sure if GANs can think exactly like humans and hence removed this statement.
-
-Inspite of the underlying limitations related to Ethical usage and balancing the Generator and Discriminator, GANs are used for a multitude of applications statement has been removed.
+1. GAN is unsupervised learning model and explicitly differentiating it with supervised models would help the learner understand labelled and unlabelled data. I wanted to start by differentiating the descriptive and generative models but thought that I would be digressing away from the main topic of interest.
+2. GANs are implemented on the principles of Deep neural networks where higher level of abstraction is plausible. I wasn’t sure if GANs can think exactly like humans and hence removed this statement.
+3. Inspite of the underlying limitations related to Ethical usage and balancing the Generator and Discriminator, GANs are used for a multitude of applications statement has been removed.
+4. Focus on architectures (U-Net) used in GANs would have made the reader understand the advancements in improved learning rate and faster convergence.
+5. Sustainability of GANs  
