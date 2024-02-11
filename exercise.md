@@ -4,8 +4,8 @@
 * Understanding the basic components in Generative Adversarial Networks and their working principles
 * Diving into the process of Image Generation with GANs
 * Implementing GAN architectures using tensor flow and keras libraries
-* Elaborate on the importance of activation functions 
-* Addressing the challenges and Ethical and Societal concerns offered by the GAN architectures
+* Elaborate the importance of activation functions 
+* Addressing the challenges and Ethical and Societal concerns offered by the GANs
 * Evaluate and strategically choose GAN models applicable for diverse real-world scenarios
 
 
@@ -31,7 +31,7 @@ GANs employ an unsupervised learning setup with a loss function in the form of t
 
 ## Learning Process
 
-* The gradient signal information is back propagated to the generator which helps it adjust its hyperparameters (learning rate, weights, bias, activation functions, loss function etc.) in the direction of minimizing the error, eventually realizing the original.
+* The gradient signal information is back propagated to the generator which helps it adjust its **hyperparameters** (learning rate, weights, bias, activation functions, loss function etc.) in the direction of minimizing the error, eventually realizing the original.
   
 * This iterative adversarial training procedure updates the weights and biases of both the networks and substantially enhances the network.
   
@@ -41,11 +41,11 @@ GANs employ an unsupervised learning setup with a loss function in the form of t
 
 ## Implementation of GANs
 
-Basic libraries used for generating GAN architecture in python are tensor flow and keras. A simple adversarial generator and discriminator model architecture is explored.
+Basic libraries used for generating GAN architecture in python are ** tensor flow and keras **. A simple adversarial generator and discriminator model architecture is explored.
 
 <center><img src="https://github.com/HimaValiveti/images/blob/main/code_libraries.jpg" width="400" height="50"> </center>
 
-The generator consists of three dense layers wherein the output dense layer has the activation function ‘tanh’ which produces 28*28 (784) dimensional vector for every image input within a normalized range of [-1,1].  This vector is forwarded to the discriminator which flattens the 28*28 vector. The activation functions, Rectifier Linear Unit (ReLU) is used for faster convergence of the generator/ discriminator models and Sigmoid is used for depicting the originality of the image.
+The generator consists of three dense layers wherein the output dense layer has the activation function **tanh** which produces 28X28 (784) dimensional vector for every image input within a normalized range of [-1,1].  This vector is forwarded to the discriminator which flattens the 28X28 vector. The activation functions, **Rectifier Linear Unit (ReLU)** is used for faster convergence of the generator/ discriminator models and **Sigmoid** is used for depicting the originality of the image.
 
 <center><img src="https://github.com/HimaValiveti/images/blob/main/discriptive_Model.jpg" width="400" height="200"> </center>
 
@@ -55,13 +55,13 @@ Furthermore, the discriminator and generator are paired and adversarial training
 
 ## The most prominent limitations of GANs,
  
-**Mode collapse:** Generator fails to completely learn the distribution of the sample data and generates samples that lack diversity- Generator overfitting
+**Mode collapse:** Generator fails to completely learn the distribution of the sample data and generates samples that lack diversity- **Generator overfitting**
 
-**Vanishing Gradient:** Occurs when almost negligible gradient is back propagated by the discriminator to the generator hampering the updation of hyperparameters, slowing down the learning process- Discriminator overfitting
+**Vanishing Gradient:** Occurs when almost negligible gradient is back propagated by the discriminator to the generator hampering the updation of hyperparameters, slowing down the learning process- **Discriminator overfitting**
 
 
 ### Ethical Concerns
-* The Deepfake video and audio of people is predominantly used in the entertainment industry but has witnessed alarming concerns that can cause fraud and harm on a global scale
+* The Deepfake video and audio of people is predominantly used in the entertainment industry but has witnessed alarming concerns like fraud and harm individuals on a global scale
 * GANs have been widely used for mimicking the literature developed by humans indirectly violating the Intellectual Property Rights (IPR)
 * The generated output can be prejudiced if the training data is not sensitized
 
