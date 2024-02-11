@@ -8,13 +8,13 @@
 * Addressing the challenges and Ethical and Societal concerns offered by the GANs
   
 
-**Generative Adversarial Networks (GANs)**, a class of Generative-AI are modelled by pairing opposing neural networks **Generator** and **Discriminator**, extract and represent complex features of audio, image and video samples. 
+**Generative Adversarial Networks (GANs)**, a class of Generative-AI, modelled by pairing opposing neural networks **Generator** and **Discriminator** capable of extracting and representing complex features of audio, image and video samples. 
 
 The **Generator** endeavours to generate artificial images that are indistinguishable from original. 
 
 The **Discriminator** determines the authentication of the counterfeit image generated 
 
-**Adversarial training** is the core principle. GANs employ a learning setup with a loss function in the form of the discriminator's feedback. This function helps the generator learn and generate realistic images without explicitly labeled data. The discriminator acts as a supervisor by continuously providing feedback to the generator, guiding it to craft images.
+**Adversarial training** is the core principle. GANs employ a learning setup with a loss function in the form of the discriminator's feedback. This function helps the generator learn and generate realistic images without explicitly labelled data. The discriminator acts as a supervisor by continuously providing feedback to the generator, guiding it to craft images.
 <center>
 <img src="https://github.com/HimaValiveti/images/blob/main/Image1.JPG" width="500" height="300"> </center>
 
